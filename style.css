@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--bs-body-bg);
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px lightgray;
+}
+
+header a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(112, 112, 112);
+  font-size: 16px;
+}
+
+header p a {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  color: lightgray;
+}
+
+header a:hover {
+  border-bottom: solid 2px;
+  color: black;
+  font-weight: bold;
+}
+
+header p a:hover {
+  border-bottom: none;
+}
+article {
+  font-family: "Nunito Sans", sans-serif;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+article h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+article h3 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+article center p {
+  width: 70%;
+  color: rgb(112, 112, 112);
+  font-size: 18px;
+}
+
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 20px;
+  color: rgb(112, 112, 112);
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.darkmode {
+  background: black;
+  color: white;
+}
