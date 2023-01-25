@@ -1,310 +1,244 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>10 Extension Wajib Visual Studio Code</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <style>
-        * {
-            margin: 0;
-            box-sizing: border-box;
-            background: white;
-        }
-        header {
-            height: 80px;
-            width: 100%;
-            padding-right: 50px;
-            padding-left: 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: solid 1px lightgray;
-        }
-        header a {
-            text-decoration: none;
-            margin-left: 20px;
-            font-family: 'Nunito Sans', sans-serif;
-            color: rgb(112, 112, 112);
-            font-size: 16px;
-        }
-        header p a {
-            font-family: 'Nunito Sans', sans-serif;
-            font-weight: bolder;
-            font-size: 32px;
-            color: lightgray;
-        }
-        header a:hover {
-            border-bottom: solid 2px;
-            color: black;
-            font-weight: bold;
-        }
+<html lang="en">
+  <head defer>
+    <meta charset="utf-8" />
+    <title>10 Extension Wajib Visual Studio Code</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+    ></script>
+    <!-- Theme -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" defer />
+  </head>
 
-        header p a:hover {
-            border-bottom: none;
-        }
-        article {
-            font-family: 'Nunito Sans', sans-serif;
-            padding-right: 50px;
-            padding-left: 50px;
-        }
+  <body>
+    <header>
+      <p><a href="/">Bukan Medium</a></p>
+      <div class="header">
+        <div class="dropdown">
+          <a target="_blank" href>Saran</a>
+          <a target="_blank" href>Kontak Saya</a>
+          <span id="darkBtn" class="icon" onclick="setDarkMode()">🌚</span>
+        </div>
+      </div>
+    </header>
 
-        article h3 {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        article h3 {
-            font-size: 32px;
-            font-weight: bolder;
-        }
-        article center p {
-            width: 70%;
-            color: rgb(112, 112, 112);
-            font-size: 18px;
-        }
-        footer {
-            font-family: 'Nunito Sans', sans-serif;
-            margin-bottom: 20px;
-            color: rgb(112, 112, 112);
-            padding-right: 50px;
-            padding-left: 50px;
-        }
-    </style>
+    <article>
+      <center>
+        <h3>10 Extension Wajib Visual Studio Code</h3>
 
-    <body>
-        <header>
-            <p><a href="/">Bukan Medium</a></p>
-            <div class="header">
-                <a target="_blank" href>Saran</a>
-                <a target="_blank" href
-                    >Kontak Saya</a
-                >
-            </div>
-        </header>
+        <p>
+          Buat temen temen yang belum install
+          <strong
+            ><a href="https://code.visualstudio.com/" target="_blank"
+              >Visual Studio Code</a
+            >
+          </strong>
+          Temen temen bisa instal dulu melalui alamat website ini Text editor
+          ini bisa digunakan untuk berbagai sistem operasi ya. Untuk menginstal
+          extension nya temen temen bisa ke sebelah kiri bagian side bar. nanti
+          disini kita bisa mencari dan mendownload extension, tapi pastikan
+          temen temen terkoneksi ke internet dulu. <br /><br />
+          <img
+            src="img/extension.png"
+            alt="extension"
+            width="500"
+            title="extension"
+            height=""
+          />
+        </p>
 
-        <article>
-            <center>
-                <h3>10 Extension Wajib Visual Studio Code</h3>
+        <br /><br />
+        <p>
+          <b><i>1. Sublime Text Keymap</i></b> =>extension ini sangat bermanfaat
+          kalo kalian sebelumnya pengguna sublime text, kalian sudah hafal
+          misalnya sortcut-sortcut nya, nah ketika berpindah ke visual studio
+          code kalian masih bisa menggunakan sortcut punya nya sublime.
+          <br /><br />
+          <img
+            src="img/sublime-text-keymap.png"
+            alt="sublime-text-keymap"
+            width="500"
+            title="sublime-text-keymap"
+            height=""
+          />
+        </p>
 
-                <p>
-                    Buat temen temen yang belum install
-                    <strong
-                        ><a
-                            href="https://code.visualstudio.com/"
-                            target="_blank"
-                            >Visual Studio Code</a
-                        >
-                    </strong>
-                    Temen temen bisa instal dulu melalui alamat website ini Text
-                    editor ini bisa digunakan untuk berbagai sistem operasi ya.
-                    Untuk menginstal extension nya temen temen bisa ke sebelah
-                    kiri bagian side bar. nanti disini kita bisa mencari dan
-                    mendownload extension, tapi pastikan temen temen terkoneksi
-                    ke internet dulu. <br /><br />
-                    <img
-                        src="img/extension.png"
-                        alt="extension"
-                        width="500"
-                        title="extension"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>2. open in browser </i></b> => extension ini juga merupakan
+          extension yang mengadopsi fitur dari sublime text. kalo kita membuat
+          file html di sublime text, untuk menampilkannya kita cukup
+          <i>klik kanan open in browser.</i> <br /><br />
+          <img
+            src="img/open-in-browser.png"
+            alt="open-in-browser"
+            width="500"
+            title="open-in-browser"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>1. Sublime Text Keymap</i></b> =>extension ini sangat
-                    bermanfaat kalo kalian sebelumnya pengguna sublime text,
-                    kalian sudah hafal misalnya sortcut-sortcut nya, nah ketika
-                    berpindah ke visual studio code kalian masih bisa
-                    menggunakan sortcut punya nya sublime. <br /><br />
-                    <img
-                        src="img/sublime-text-keymap.png"
-                        alt="sublime-text-keymap"
-                        width="500"
-                        title="sublime-text-keymap"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>3. Live Share </i></b> => ini adalah extension yang lebih keren
+          lagi. Extension ini ngga hanya menampilkan website temen temen dengan
+          mudah. begitu temen temen save website nya berubah. hampir sama dengan
+          open in browser tapi dia live, sudah otomatis live tanpa di refresh,
+          karna menampilkannya di web server lokal vs code punya nya temen
+          temen. <br /><br />
+          <img
+            src="img/live-share.png"
+            alt="live-share"
+            width="500"
+            title="live-share"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>2. open in browser </i></b> => extension ini juga
-                    merupakan extension yang mengadopsi fitur dari sublime text.
-                    kalo kita membuat file html di sublime text, untuk
-                    menampilkannya kita cukup
-                    <i>klik kanan open in browser.</i> <br /><br />
-                    <img
-                        src="img/open-in-browser.png"
-                        alt="open-in-browser"
-                        width="500"
-                        title="open-in-browser"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>4. Auto Rename Tag </i></b> => extension ini membantu ketika
+          temen temen ingin mengganti sebuah tag, temen temen ngga perlu
+          mengganti tag pembuka dan penutupnya cukup tag pembuka nya saja, nanti
+          otomatis penutup nya juga akan diganti. <br /><br />
+          <img
+            src="img/auto-rename-tag.png"
+            alt="auto-rename-tag"
+            width="500"
+            title="auto-rename-tag"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>3. Live Share </i></b> => ini adalah extension yang
-                    lebih keren lagi. Extension ini ngga hanya menampilkan
-                    website temen temen dengan mudah. begitu temen temen save
-                    website nya berubah. hampir sama dengan open in browser tapi
-                    dia live, sudah otomatis live tanpa di refresh, karna
-                    menampilkannya di web server lokal vs code punya nya temen
-                    temen. <br /><br />
-                    <img
-                        src="img/live-share.png"
-                        alt="live-share"
-                        width="500"
-                        title="live-share"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>5. IntelliSense for CSS class names in HTML </i></b>
+          => extension ini berguna banget buat web designer juga ya, apalagi
+          temen temen bekerja dengan framework bootstrap, kan banyak banget
+          class classnya, memudahkan kita melihat ada class apa saja di dalam
+          file css yang sudah kita panggil. Maka akan ada pilihan nya, kalo
+          temen temen lupa class yang ada di dalam bootstrap maka ini akan
+          sangat membantu.
+          <br /><br />
+          <img
+            src="img/intelisense-css-classnames.png"
+            alt="intelisense-css-classnames"
+            width="500"
+            title="intelisense-css-classnames"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>4. Auto Rename Tag </i></b> => extension ini membantu
-                    ketika temen temen ingin mengganti sebuah tag, temen temen
-                    ngga perlu mengganti tag pembuka dan penutupnya cukup tag
-                    pembuka nya saja, nanti otomatis penutup nya juga akan
-                    diganti. <br /><br />
-                    <img
-                        src="img/auto-rename-tag.png"
-                        alt="auto-rename-tag"
-                        width="500"
-                        title="auto-rename-tag"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>6. CSS Peek </i></b> => kebalikan extension
+          <i>IntelliSense for CSS class names in HTML</i>, extension ini
+          digunakan untuk mengintip css apa? kalo css simple langsung kelihatan.
+          tapi kalo banyak ngga kelihatan tapi kalo di klik dia langsung masuk
+          ke definisi nya. <br /><br />
+          <img
+            src="img/css-peek.png"
+            alt="css-peek"
+            width="500"
+            title="css-peek"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>5. IntelliSense for CSS class names in HTML </i></b>
-                    => extension ini berguna banget buat web designer juga ya,
-                    apalagi temen temen bekerja dengan framework bootstrap, kan
-                    banyak banget class classnya, memudahkan kita melihat ada
-                    class apa saja di dalam file css yang sudah kita panggil.
-                    Maka akan ada pilihan nya, kalo temen temen lupa class yang
-                    ada di dalam bootstrap maka ini akan sangat membantu.
-                    <br /><br />
-                    <img
-                        src="img/intelisense-css-classnames.png"
-                        alt="intelisense-css-classnames"
-                        width="500"
-                        title="intelisense-css-classnames"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>7. indent-rainbow </i></b> => sangat membantu ketika kita
+          membuat halaman terutama html ya. Cobain deh temen-temen. <br /><br />
+          <img
+            src="img/indent-rainbow.png"
+            alt="indent-rainbow"
+            width="500"
+            title="indent-rainbow"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>6. CSS Peek </i></b> => kebalikan extension
-                    <i>IntelliSense for CSS class names in HTML</i>, extension
-                    ini digunakan untuk mengintip css apa? kalo css simple
-                    langsung kelihatan. tapi kalo banyak ngga kelihatan tapi
-                    kalo di klik dia langsung masuk ke definisi nya.
-                    <br /><br />
-                    <img
-                        src="img/css-peek.png"
-                        alt="css-peek"
-                        width="500"
-                        title="css-peek"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>8. Bracket Pair Colorizer </i></b> => hampir mirip dengan indent
+          rainbow, tapi ini untuk kurung kurawal, jadi kalo kita misal ngoding
+          php atau js, kadang kita membuat banyak kurung kurawal ya., jadi dia
+          memewarnai kurung kurawal nya. dan warna nya berpasangan. <br /><br />
+          <img
+            src="img/bracket-pair-colorizer.png"
+            alt="bracket-pair-colorizer"
+            width="500"
+            title="bracket-pair-colorizer"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>7. indent-rainbow </i></b> => sangat membantu ketika
-                    kita membuat halaman terutama html ya. Cobain deh
-                    temen-temen. <br /><br />
-                    <img
-                        src="img/indent-rainbow.png"
-                        alt="indent-rainbow"
-                        width="500"
-                        title="indent-rainbow"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>9. Beautify </i></b> => untuk membantu formatting koding kita,
+          maka nanti kode nya akan otomatis di formatkan, format nya bisa kalian
+          bikin sendiri atau menggunakan format yg sudah ada didalam beautify
+          nya. Tapi ini ada setting yang harus dilakukan. <br /><br />
+          <img
+            src="img/beautify.png"
+            alt="beautify"
+            width="500"
+            title="beautify"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>8. Bracket Pair Colorizer </i></b> => hampir mirip
-                    dengan indent rainbow, tapi ini untuk kurung kurawal, jadi
-                    kalo kita misal ngoding php atau js, kadang kita membuat
-                    banyak kurung kurawal ya., jadi dia memewarnai kurung
-                    kurawal nya. dan warna nya berpasangan. <br /><br />
-                    <img
-                        src="img/bracket-pair-colorizer.png"
-                        alt="bracket-pair-colorizer"
-                        width="500"
-                        title="bracket-pair-colorizer"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b><i>10. PHP IntelliSense </i></b> => ketika temen temen ngetik
+          sesuatu, keluar autocomplate nya. <br /><br />
+          <img
+            src="img/php-intelliSense.png"
+            alt="php-intelliSense"
+            width="500"
+            title="php-intelliSense"
+            height=""
+          />
+        </p>
 
-                <br /><br />
-                <p>
-                    <b><i>9. Beautify </i></b> => untuk membantu formatting
-                    koding kita, maka nanti kode nya akan otomatis di formatkan,
-                    format nya bisa kalian bikin sendiri atau menggunakan format
-                    yg sudah ada didalam beautify nya. Tapi ini ada setting yang
-                    harus dilakukan. <br /><br />
-                    <img
-                        src="img/beautify.png"
-                        alt="beautify"
-                        width="500"
-                        title="beautify"
-                        height=""
-                    />
-                </p>
+        <br /><br />
+        <p>
+          <b>*Bonus*</b> <br /><br />
+          <i
+            >One Dark Pro tema yang paling populer di gunakan di vs code, kalo
+            temen-temen tau ada sebuah kode editor namanya atom yang skema warna
+            nya banyak yang suka dan di vs code ini kita bisa install tema atom
+            itu ke dalam vs code nya.</i
+          >
+          <br /><br />
+          <img
+            src="img/one-dark-pro.png"
+            alt="one-dark-pro"
+            width="500"
+            title="one-dark-pro"
+            height=""
+          />
+        </p>
+      </center>
+    </article>
 
-                <br /><br />
-                <p>
-                    <b><i>10. PHP IntelliSense </i></b> => ketika temen temen
-                    ngetik sesuatu, keluar autocomplate nya. <br /><br />
-                    <img
-                        src="img/php-intelliSense.png"
-                        alt="php-intelliSense"
-                        width="500"
-                        title="php-intelliSense"
-                        height=""
-                    />
-                </p>
-
-                <br /><br />
-                <p>
-                    <b>*Bonus*</b> <br /><br />
-                    <i
-                        >One Dark Pro tema yang paling populer di gunakan di vs
-                        code, kalo temen-temen tau ada sebuah kode editor
-                        namanya atom yang skema warna nya banyak yang suka dan
-                        di vs code ini kita bisa install tema atom itu ke dalam
-                        vs code nya.</i
-                    >
-                    <br /><br />
-                    <img
-                        src="img/one-dark-pro.png"
-                        alt="one-dark-pro"
-                        width="500"
-                        title="one-dark-pro"
-                        height=""
-                    />
-                </p>
-            </center>
-        </article>
-
-        <br /><br /><br /><br /><br />
-        <footer>
-            <center>
-                <p>
-                    Diadopsi dari Channel Web Programming Unpas | By Melisa
-                    Febriani | 2021
-                </p>
-            </center>
-        </footer>
-    </body>
+    <br /><br /><br /><br /><br />
+    <footer>
+      <center>
+        <p>
+          Diadopsi dari Channel Web Programming Unpas | By Melisa Febriani |
+          2021
+        </p>
+      </center>
+    </footer>
+    <!-- Javascript -->
+    <script src="javascript.js"></script>
+  </body>
 </html>
